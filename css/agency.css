@@ -8,7 +8,7 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #777777;
+  color: #777867;
 }
 .text-primary {
   color: #fed136;
@@ -57,7 +57,7 @@ h6 {
 }
 .btn-primary {
   color: white;
-  background-color: #fed136;
+  background-color: #98ddde;
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -226,10 +226,10 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('https://ncache.ilbe.com/files/attach/new/20131206/1349949/115690717/2492544956/27c8ffa1e674eb79db219257993ad572.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -237,6 +237,8 @@ header {
   text-align: center;
   color: white;
 }
+
+header .container {background-image: url('https://img-wishbeen.akamaized.net/plan/1440471508329_tangled-2.jpg');}
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
